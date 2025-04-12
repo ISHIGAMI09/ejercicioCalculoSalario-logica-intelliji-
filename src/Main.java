@@ -3,21 +3,8 @@ import java.util.Scanner;
 public class Main {
  public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-     String nombreEmpleado = "";
-     String documentoEmpleado = "";
-     double salarioBruto = 0;
-     double salarioNeto = 0;
-     double valorHoras = 0;
-     double catidadHoras = 0;
-     double deduccionSalud = 0;
-     double deduccionPenssion = 0;
-     double horasExtras = 0;
-     double valorHorasExtras = 0;
-     double bonificacion = 0;
-     double fondoSolidaridadPensional = 0;
-     double valorReteFuente = 0;
-     double auxilioDeTransporte = 0;
-     double salarioMinomo = 0;
+     String nombreEmpleado = "", documentoEmpleado = "";
+     double salarioBruto = 0 , salarioNeto = 0 , valorHoras = 0 , catidadHoras = 0 , deduccionSalud = 0 , deduccionPenssion = 0 , horasExtras = 0 , valorHorasExtras = 0 , bonificacion = 0 , fondoSolidaridadPensional = 0 , valorReteFuente = 0 , auxilioDeTransporte = 0 , salarioMinomo = 0;
 
      System.out.println("Ingresa el Nombre del Empleado");
      nombreEmpleado = sc.nextLine();
